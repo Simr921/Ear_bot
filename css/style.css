@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #000 !important ;
+}
+
+.img-circle{
+    border-radius: 50%;
+    height: 250px;
+}
+
+ .container img:hover
+{
+
+cursor: pointer;
+--webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+animation:  rotation 1s ;
+}
+
+
+
+
+
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/*@keyframes rev-rotate{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+
+    }
+}
+*/
+
+
+
+
+.row .img-circle{
+    margin-bottom: 50px;
+}

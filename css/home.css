@@ -1,0 +1,13 @@
+.images{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand{
+    font-size: 2em !important ;
+}
+
+ span{
+     color: red;
+ }
